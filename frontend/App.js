@@ -9,7 +9,7 @@ function App() {
 
     setChat([...chat, { role: "user", text: message }]);
 
-    const res = await fetch("https://YOUR-BACKEND-URL.onrender.com/chat", {
+    const res = await fetch("https://kairo-kudc.onrender.com/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message }),
