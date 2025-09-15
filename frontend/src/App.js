@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4">
-      <h1 className="text-2xl font-bold mb-4">KAIRO AI</h1>
+      <h1 className="text-2x1 font-bold mb-4">Kairo</h1>
       <div className="w-full max-w-lg bg-gray-800 p-4 rounded-lg shadow-md h-[400px] overflow-y-auto">
         {chat.map((c, i) => (
           <div key={i} className={`my-2 ${c.role === "user" ? "text-blue-400" : "text-green-400"}`}>
